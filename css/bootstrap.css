@@ -6254,4 +6254,17 @@ button.close {
   }
 }
 
+.cusError{
+          background-color: red !important;
+          color: white !important;
+          opacity: 40%;
+          border-radius: 10px;
+        }
+
+.cusValid{
+          background-color: green !important;
+          color: white !important;
+          opacity: 40%;
+          border-radius: 10px;
+        }
 /*# sourceMappingURL=bootstrap.css.map */
