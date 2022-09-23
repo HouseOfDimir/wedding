@@ -84,7 +84,7 @@
 						<li><a href="#services">Coin enfant</a></li>
 <!-- 						<li><a href="#gallery">Gallerie</a></li>
  -->						<li><a href="#contactUs">Nous contacter</a></li>
- 						<li><a href="#misc">Divers</a></li>
+ 						<li><a href="#misc">Infos pratiques</a></li>
 					</ul>
 				</div>
 			</div>
@@ -101,8 +101,7 @@
 							<h1 style="margin-top: 10rem;">Clara & William</h1>
 							<h2>Nous allons nous marier !</h2>
 							<div class="simply-countdown simply-countdown-one"></div>
-<!-- 							<p><a href="#" class="btn btn-default btn-sm">Save the date</a></p>
- -->						</div>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -113,8 +112,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
-					<h2>Hello!</h2>
-					<p>Nous vous invitons à célébrer votre mariage</p>
+					<h2>Nous vous invitons à célébrer votre mariage</h2>
 					<h3>Le 11 février 2023, au Domaine de Beubois à Orbey !</h3>
 				</div>
 			</div>
@@ -273,9 +271,8 @@
 		<div class="container" id="aboutUs">
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
-					<span>We Love Each Other</span>
-					<h2>Our Story</h2>
-					<p>petit blabla non obligatoire</p>
+					<span>Nous nous aimons</span>
+					<h2>Notre histoire</h2>
 				</div>
 			</div>
 			<div class="row">
@@ -584,7 +581,7 @@
 			<div class="row animate-box">
 				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
 					<h2>Participez-vous ?</h2>
-					<p>Remplissez le formulaire ci-dessous si vous participez à notre mariage, merci.</p>
+					<p>Nous comptons sur vous ! Merci de compléter le formulaire ci-dessous pour faciliter l'organisation de notre mariage !</p>
 					<p class="toAppend"></p>
 				</div>
 			</div>
@@ -691,25 +688,16 @@
 	</div>
 
 	<div class="fh5co-section">
-		<div class="container" id="misc">
+		<div class="container" id="misc" style="text-align: center;">
 			<div class="row">
-				<div class="col-md-6 col-md-push-6 animate-box">
+				<div class="col-md-12 text-center fh5co-heading animate-box">
 					<div class="fh5co-contact-info">
-						<h3>Nous contacter</h3>
-						<ul>
+						<h2 style="color: black !important; font-weight: normal !important;">Informations pratiques</h2>
+						<ul style="display: inline-block; text-align: left;">
 							<li class="address"><a href="https://www.google.com/maps/dir//18+grande+rue,+Champagney">Notre adresse</a></li>
 							<li class="phone"><a href="tel://0615586919">Nous contacter par téléphone</a></li>
 							<li class="email"><a class="mailContact" href="">Nous contacter par mail</a></li>
-						</ul>
-					</div>
-				</div>
-				<div class="col-md-6 col-md-pull-6 animate-box">
-					<div class="fh5co-contact-info">
-						<h3>Informations pratiques</h3>
-						<ul>
-							<li class="address"><a href="https://www.google.com/maps/dir//Domaine+du+Beubois,+Domaine+du+Beubois,+Orbey">Google Maps - Lieu de mariage</a></li>
-							<li class="url"><a href="https://domaine-du-beubois.fr">Réserver un gîte sur le lieu de mariage</a></li>
-							<li class="url"><a href="https://www.google.com/maps/search/hotel/@48.1192419,7.0716434,12z/data=!4m4!2m3!5m2!5m1!1s2023-02-11">Réserver un hôtel autour du lieu de mariage</a></li>
+							<li class="url"><a href="https://www.google.com/maps/dir//Domaine+du+Beubois,+Domaine+du+Beubois,+Orbey">Google Maps - Lieu de mariage</a></li>
 						</ul>
 					</div>
 				</div>
@@ -769,6 +757,13 @@
     var d = new Date('February 11, 2023 16:00:00');
 
     simplyCountdown('.simply-countdown-one', {
+		words: { //words displayed into the countdown
+                days: 'jour',
+                hours: 'heure',
+                minutes: 'minute',
+                seconds: 'seconde',
+				pluralLetter: 's'
+            },
         year: d.getFullYear(),
         month: d.getMonth() + 1,
         day: d.getDate()
