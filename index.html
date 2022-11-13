@@ -131,7 +131,7 @@
 				<p class="heart text-center"><i class="icon-heart2"></i></p>
 				<div class="couple-half">
 					<div class="bride">
-						<img src="images/p1-cl.jpg" alt="groom" class="img-responsive">
+						<img src="images/claratest1.jpg" style="object-fit: cover;" alt="groom" class="img-responsive">
 					</div>
 					<div class="desc-bride">
 						<h3>Clara Ipponich</h3>
@@ -844,7 +844,7 @@
 				if(data.status === 'KO'){
 					var toAppend = '<i class="fas fa-times"></i> Oups, on a oublié quelque chose ? <br /><br />';
 					var br		 = '<br />';
-					console.log(data.error, data.error.isString())
+					//console.log(data.error, data.error.isString())
 					if(data.error.length > 0){
 						data.error.forEach(element => {
 							toAppend += `${'<b>' + element + '</b> ' + br}`;
@@ -872,7 +872,7 @@
 				}
 			})
 			.catch(error => {
-				console.log(error)
+				console.log(error + 'test')
 			})
 	});
 
