@@ -1840,5 +1840,25 @@ form label {
   opacity: 0;
 }
 
+@media screen and (max-width: 768px) {
+  .fh5co-cover {
+    background: url(../images/p1-bw2-test.jpg) center no-repeat #fff;
+    background-position: -0px 0px !important;
+    background-size: cover;
+  }
+  /* .simply-countdown{
+    margin-top: 200px !important;
+  } */
+  .t1{
+    margin-top: 275px !important;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .fh5co-cover {
+    background: url(../images/p1-bw.jpg) center no-repeat #fff;
+    background-size: cover;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
