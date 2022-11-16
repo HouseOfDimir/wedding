@@ -601,17 +601,17 @@
 			//$('.newField').remove();
 			//for(let i = 0; i < $(this).children('option:selected').val(); i++){
 				var fields = ''
-				fields += `<div class="col-md-4 col-sm-4 newField_${$('#participant').val()}">`;
+				fields += `<div class="col-md-4 col-sm-4 toAnimate newField_${$('#participant').val()}">`;
 				fields += '<div class="form-group">';
 				fields += '<label for="name" class="sr-only">Nom</label>';
 				fields += `<input type="name" class="form-control" name="name_${$('#participant').val()}" id="name" placeholder="Nom">`;
 				fields += '</div></div>';
-				fields += `<div class="col-md-4 col-sm-4 newField_${$('#participant').val()}">`;
+				fields += `<div class="col-md-4 col-sm-4 toAnimate newField_${$('#participant').val()}">`;
 				fields += '<div class="form-group">';
 				fields += '<label for="firstname" class="sr-only">Prénom</label>';
 				fields += `<input type="firstname" class="form-control" name="firstname_${$('#participant').val()}" id="firstname" placeholder="Prénom">`;
 				fields += '</div></div>';
-				fields += `<div class="col-md-2 col-sm-2 newField_${$('#participant').val()}">`;
+				fields += `<div class="col-md-2 col-sm-2 toAnimate newField_${$('#participant').val()}">`;
 				fields += '<div class="form-group">';
 				fields += '<label for="genre" class="sr-only">Type</label>';
 				fields += '<div class="form-group">';
@@ -620,11 +620,11 @@
 				fields += '<option value="1" style="color: black;">Adulte</option>';
 				fields += '<option value="2" style="color: black;">Enfant</option></select></div></div></div>';
 
-				fields += `<div class="col-md-2 col-sm-2 newField_${$('#participant').val()}">`;
+				fields += `<div class="col-md-2 col-sm-2 toAnimate newField_${$('#participant').val()}">`;
 				fields += '<button id="" style="text-align: center;margin-bottom: 2rem;" class="btn btn-default btn-block delPerson">X</button>';
 				fields += '</div>';
 
-				fields += `<div class="col-md-3 col-sm-3 newField_${$('#participant').val()}">`;
+				fields += `<div class="col-md-3 col-sm-3 toAnimate newField_${$('#participant').val()}">`;
 				fields += '<div class="pretty p-icon p-curve p-tada p-plain">';
 				fields += `<input type="checkbox" name="diner_${$('#participant').val()}" value="1"/>`;
 				fields += '<div class="state">';
@@ -632,7 +632,7 @@
 				fields += '<label style="color: white !important;">Participe au repas</label>';
 				fields += '</div></div></div>';
 					
-				fields += `<div class="col-md-3 col-sm-3 newField_${$('#participant').val()}">`;
+				fields += `<div class="col-md-3 col-sm-3 toAnimate newField_${$('#participant').val()}">`;
 				fields += '<div class="pretty p-icon p-curve p-tada p-plain">';
 				fields += `<input type="checkbox" name="sleep_${$('#participant').val()}" value="1"/>`;
 				fields += '<div class="state">';
@@ -640,7 +640,7 @@
 				fields += '<label style="color: white !important;">Dort sur place</label>';
 				fields += '</div></div></div>';
 							
-				fields += `<div class="col-md-3 col-sm-3 newField_${$('#participant').val()}">`;
+				fields += `<div class="col-md-3 col-sm-3 toAnimate newField_${$('#participant').val()}">`;
 				fields += '<div class="pretty p-icon p-curve p-tada p-plain">';
 				fields += `<input type="checkbox" name="babysitter_${$('#participant').val()}" value="1"/>`;
 				fields += '<div class="state">';
@@ -648,7 +648,7 @@
 				fields += '<label style="color: white !important;">Coin enfant</label>';
 				fields += '</div></div></div>';
 						
-				fields += `<div class="col-md-3 col-sm-3 newField_${$('#participant').val()}">`;
+				fields += `<div class="col-md-3 col-sm-3 toAnimate newField_${$('#participant').val()}">`;
 				fields += '<div class="pretty p-icon p-curve p-tada p-plain">';
 				fields += `<input type="checkbox" name="brunch_${$('#participant').val()}" value="1"/>`;
 				fields += '<div class="state">';
