@@ -1861,4 +1861,19 @@ form label {
   }
 }
 
+@keyframes append-animate {
+  from {
+    transform: scale(0);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.newField{
+  animation: append-animate .3s linear;
+}
+
 /*# sourceMappingURL=style.css.map */
